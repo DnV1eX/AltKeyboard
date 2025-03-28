@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AltKeyboard macOS App</title>
-  <base href="">
-  <link rel="icon" href="">
-  <link rel="stylesheet" href="">
-  <style></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltKeyboard macOS App</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>AltKeyboard macOS App</h1>
+    <header>
+        <h1>⎇ AltKeyboard</h1>
+        <p>Enhance your Mac control and typing with a customizable virtual keyboard overlay.</p>
+
+        <picture>
+            <source srcset="screenshot-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="screenshot-light.png" alt="AltKeyboard Overlay" class="screenshot" />
+        </picture>
+    </header>
+
+    <main>
+        <article>
+
+            <section>
+                <h2>Welcome</h2>
+                <p><strong>AltKeyboard</strong> is a powerful macOS app that runs in the background, displaying a translucent virtual keyboard overlay inspired by Apple’s design. It lets you customize keys, view shortcut hints, and boost productivity with ease.</p>
+            </section>
+
+            <a href="https://apps.apple.com/us/app/altkeyboard-layouts-overlay/id6742800466?mt=12&itscg=30200&itsct=apps_box_badge&mttnsubad=6742800466" style="display: inline-block;">
+                <picture>
+                    <source srcset="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1743033600" media="(prefers-color-scheme: dark)" />
+                    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/white/en-us?releaseDate=1743033600" alt="Download on the App Store" class="badge" />
+                </picture>
+            </a>
+
+            <section>
+                <h2>Getting Started</h2>
+                <h3>First Launch</h3>
+                <ul>
+                    <li><strong>Grant Permissions</strong>: On first launch, AltKeyboard requests accessibility permissions to function.</li>
+                    <li><strong>Login Item</strong>: Opt to add AltKeyboard to your "Open at Login" items for seamless use.</li>
+                    <li><strong>Menu Bar</strong>: Click the <code>⎇</code> icon in the menu bar to access controls and settings.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Main Features</h2>
+                <h3>Keyboard Overlay</h3>
+                <p>The overlay appears when you hold custom modifier keys. You can also show it permanently using the app menu or by pressing the <code>Option</code> key twice. Drag the overlay by its edges to reposition the keyboard.</p>
+                <ul>
+                    <li>Highlights pressed keys and shows tooltips on hover.</li>
+                    <li>Supports mouse clicks or physical key presses.</li>
+                    <li>Modifiers stay pressed when clicked until a non-modifier key is pressed.</li>
+                </ul>
+
+                <h3>Virtual Layouts</h3>
+                <p>Create custom layouts in the Virtual Layout Editor and manage them in <strong>Layouts Settings</strong>:</p>
+                <ul>
+                    <li><strong>Customize</strong>: Add keys with custom input, legends, and hints.</li>
+                    <li><strong>Activate</strong>: Set layout activation modifiers (disable them in the menu or by pressing the <code>Option</code> key three times).</li>
+                    <li><strong>Group</strong>: Assign layouts to groups, switched with function keys (F1-F12) or the app menu.</li>
+                    <li><strong>Share</strong>: Export layouts as <code>.alt</code> files or import from others.</li>
+                </ul>
+
+                <h3>Customization</h3>
+                <ul>
+                    <li><strong>Overlay</strong>: Set the overlay display delay, choose modifier keys, hide key names, labels, or hints.</li>
+                    <li><strong>Appearance</strong>: Adjust scale, material transparency, and light/dark mode.</li>
+                    <li><strong>Extra</strong>: Enable key press or clipboard sounds, clipboard notifications, and more.</li>
+                </ul>
+            </section>
+
+            <div class="highlight">
+                <p><strong>Tip</strong>: The <code>‹⌥›</code> modifier refers to the left or right Option key (but not both), so you can still access system layout symbols by pressing both Option keys simultaneously.</p>
+            </div>
+
+            <section>
+                <h2>Usage Scenarios</h2>
+                <ul>
+                    <li><strong>Fast Emojis</strong>: Assign emojis to keys for quick chats.</li>
+                    <li><strong>Symbol Access</strong>: Enter symbols using <code>Option</code> or <code>Option-Shift</code> effortlessly.</li>
+                    <li><strong>Mouse or Touchpad Input</strong>: Click overlay keys or combine with physical presses.</li>
+                    <li><strong>Shortcuts</strong>: View system shortcuts with hints when pressing modifiers.</li>
+                    <li><strong>Snippets</strong>: Create layouts for phrases or templates (e.g., HTML, SQL).</li>
+                    <li><strong>Foreign Languages</strong>: Display system layouts for multilingual typing.</li>
+                </ul>
+            </section>
+
+            <div class="highlight">
+                <p><strong>Tip</strong>: Enjoy typing with key press sounds through noise-canceling headphones! 🎧</p>
+            </div>
+
+            <section>
+                <h2>Privacy & Security</h2>
+                <p>AltKeyboard keeps your data safe:</p>
+                <ul>
+                    <li>No typing is recorded or stored.</li>
+                    <li>No internet access required.</li>
+                    <li>Password fields remain unreadable by the app.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Support</h2>
+                <p>Questions? Feature requests? Contact us at <a href="mailto:altkeyboard@dnv1ex.com">altkeyboard@dnv1ex.com</a>.</p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 DnV1eX. Built with passion for macOS users.</p>
+    </footer>
 </body>
 </html>
